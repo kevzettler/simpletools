@@ -27,7 +27,8 @@
 
 .top-loader { margin: 0 auto 0;
 	width: 200px;
-  text-align: center; }
+  text-align: center; 
+margin-top:10px;}
 
 /* Bouncing Arrow */
 

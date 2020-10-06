@@ -5,13 +5,16 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import React, { Component } from 'react';
 import Loader from 'react-loader-spinner'
 
- export default class loader extends React.Component {
+ export default class loader2 extends React.Component {
   //other logic
     render() {
      return(
       <div className="col spinner_item" title="MutatingDots">
 
- <Loader type="Rings" color="#00BFFF" height={80} width={80} />
+   <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+
+   <p> This may take around 30 seconds </p>
+
 
             </div>
       

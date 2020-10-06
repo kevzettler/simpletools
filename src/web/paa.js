@@ -34,6 +34,7 @@ import {PolymerElement, html} from '@polymer/polymer';
 import '@polymer/paper-tooltip/paper-tooltip.js';
 
 import Loading from './loader'
+import Loading2 from './loader2'
 
 
 // top legend with scores color range 
@@ -158,10 +159,11 @@ const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
             <form onSubmit={this.search}  method="post">
                   <p>
                   <div className="searchbar">
+                  <p> Type a keyword below and find what people are asking </p>
                     <div className="form__group field">
                        <div className="searchbox">
                           <input type="input" class="form__field" placeholder="Search" id='buscar' required />
-                           <label for="name" class="form__label">E.g Food delivery</label>
+                           <label for="name" class="form__label">E.g Netflix Stock</label>
                     </div>
                         <div className="button">
 
@@ -189,7 +191,7 @@ const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
     </div>
 
 <div class = "top-loader">
-{loading ? <Loading /> : <h1> Results </h1> }
+{loading ? <Loading2 /> : <h1> Results </h1> }
 </div>
 
 
@@ -223,6 +225,7 @@ const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
                       }
                        </tbody>
                  </Table>
+                 <a href="mailto:hello@kburchardt.com"><p> Need more Questions? Click here</p></a>
                  <CSVLink data={paas}>
                  <AwesomeButton
                   size="large"

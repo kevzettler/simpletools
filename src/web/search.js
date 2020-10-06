@@ -50,7 +50,7 @@ class Search extends Component {
                   <div className="form__group field">
                      <div className="searchbox">
                         <input type="input" class="form__field" placeholder="Search" id='buscar' required />
-                         <label for="name" class="form__label">E.g Food delivery</label>
+                         <label for="name" class="form__label">E.g Netflix Stocks</label>
                     </div>
                        <div className="button">
                          <AwesomeButtonProgress
@@ -63,6 +63,7 @@ class Search extends Component {
                             }, 10000);
                             }}> Search 
                           </AwesomeButtonProgress>
+                          
                     </div>
                   </div>
                 </div>
