@@ -17,7 +17,11 @@ from google.cloud.language import types
 
 import os
 
+from prometheus_flask_exporter import PrometheusMetrics
+
 app = Flask(__name__,static_folder='../build', static_url_path='/')
+metrics = PrometheusMetrics(app)
+
 
 @app.route('/')
 def index():
