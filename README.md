@@ -2,6 +2,9 @@
 
 ## About
 
+![Screenshot]()
+
+
 SimpleTools is a simple Flask based tool for Search Engine Optimisation.
 You can visit our hosted site [here](https://simpletools.io/).
 
@@ -20,3 +23,8 @@ Although there are currently no Contributing guidelines, contributing is always 
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+## Donating
+
+If you like this project, please consider [donating!](https://www.paypal.com/donate/?cmd=_donations&business=sundios%40gmail.com&currency_code=USD&source=url).
+All donations are much appreciated and help motivate me to keep working on projects like this!
